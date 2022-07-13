@@ -290,7 +290,7 @@ letter-spacing: 0.025em;
     flex-direction: column;
     opacity: 0.5s;
     transition: 0.5s;
-    margin-top: -175px;
+    margin-top: -100px;
 }
 
 .container .card:hover .content
@@ -374,3 +374,4 @@ margin-top: -540px;
 padding: 50px 100px;
 background: #F6F9FF;
 }
+

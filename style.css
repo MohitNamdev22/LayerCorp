@@ -365,3 +365,12 @@ letter-spacing: 0.025em;
 
 
 }
+
+.aboutBox{
+    width: 730px;
+height: 456px;
+margin-left: 620px;
+margin-top: -540px;
+padding: 50px 100px;
+background: #F6F9FF;
+}

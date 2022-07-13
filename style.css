@@ -144,7 +144,7 @@ color: #FFFFFF;
     text-align: center;
     background-color: #F6F9FF;
     margin-top: 160px;
-    height: 1500px;
+    height: 1750px;
 }
 
 .sq{
@@ -246,13 +246,18 @@ letter-spacing: 0.025em;
 }
 
 
+.aboutUs{
+    text-align: center;
+}
+
 
 
 .container{
     position:relative;
     z-index: 1;
     display: flex;
-    justify-content: center;
+    margin-left: 45px;
+    float: left;
     align-items: center;
     flex-wrap: wrap;
     margin: 40px 0;

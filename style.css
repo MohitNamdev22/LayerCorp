@@ -256,11 +256,11 @@ letter-spacing: 0.025em;
     position:relative;
     z-index: 1;
     display: flex;
-    margin-left: 45px;
     float: left;
     align-items: center;
     flex-wrap: wrap;
     margin: 40px 0;
+    margin-left: 75px;
 
 
 }
@@ -268,7 +268,7 @@ letter-spacing: 0.025em;
 .container .card {
     position: relative;
     width: 300px;
-    height: 400px;
+    height: 500px;
     background: rgba(255,255,255,0.05);
     margin: 20px;
     box-shadow: 0 15px 35px rgba(0,0,0,0.2);
@@ -289,7 +289,8 @@ letter-spacing: 0.025em;
     align-items: center;
     flex-direction: column;
     opacity: 0.5s;
-    transition: 0.5s; 
+    transition: 0.5s;
+    margin-top: -175px;
 }
 
 .container .card:hover .content

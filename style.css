@@ -395,7 +395,7 @@ background: #F6F9FF;
     margin-right: 100px;
     margin-top: 50px;
     float: right;
-    height: 500px;
+    height: 600px;
     width: 500px;
     background: rgba( 255, 255, 255, 0.2 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -414,10 +414,15 @@ form{
 
 .containerForm h1{
     font-size: 25px;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    font-family: 'Gothic A1';
 }
 .form-control{
     font-size: 20px;
     padding: 10px 10px;
+    width: 350px;
+    font-family: 'Barlow';
 }
 
 .form-group textarea{
@@ -428,5 +433,19 @@ form{
 .btn{
     font-size: 15px;
     padding: 10px 20px;
-    
+    color: #F6F9FF;
+    font-family: 'Barlow';
+    letter-spacing: 2px;
+    font-weight: 700;
+    background: #00243e;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+            border: none;
+            border-radius: 5px;
+            transition: 0.3s;
+
+}
+
+.btn:hover{
+    color: black;
+    background-color: #2AFADF;
 }

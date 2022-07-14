@@ -457,3 +457,34 @@ form{
     margin-top: 250px;
 
 }
+
+.socialmedia{
+    margin-top: 25px;
+}
+.socialmedia i{
+    margin:0 20px;
+    
+}
+
+#gmail:hover{
+
+    background:linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335);
+    transition-duration: 10s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#linkedin:hover{
+    background-color: #0075b5;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#insta:hover{
+
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    transition-duration: 10s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

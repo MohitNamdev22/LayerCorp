@@ -392,10 +392,11 @@ background: #F6F9FF;
     float: left;
 }
 .containerForm{
+    margin-right: 100px;
     margin-top: 50px;
     float: right;
     height: 500px;
-    width: 1000px;
+    width: 500px;
     background: rgba( 255, 255, 255, 0.2 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 4px );
@@ -404,20 +405,28 @@ border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+form{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
 .containerForm h1{
     font-size: 25px;
 }
 .form-control{
     font-size: 20px;
     padding: 10px 10px;
-    margin-bottom: 25px;
 }
 
 .form-group textarea{
     width: 350px;
+    margin-top: 20px;
 }
 
-.form-row{
-    gap: 25px;
-    display: flex;
+.btn{
+    font-size: 15px;
+    padding: 10px 20px;
+    
 }

@@ -387,6 +387,7 @@ background: #F6F9FF;
     background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);    
 }
 
+
 .emails{
     margin-left: 70px;
     margin-top: 50px;
@@ -449,4 +450,10 @@ form{
 .btn:hover{
     color: black;
     background-color: #2AFADF;
+}
+
+
+.social{
+    margin-top: 250px;
+
 }

@@ -466,10 +466,11 @@ form{
     
 }
 
+
 #gmail:hover{
 
     background:linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335);
-    transition-duration: 10s;
+    transition: 10s;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

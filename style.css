@@ -127,8 +127,9 @@ color: #FFFFFF;
 
 }
 
-.learnBtn:hover{
-    background: black;
+.learnBtn :hover{
+    letter-spacing: 1px;
+    
 }
 
 #arrow{

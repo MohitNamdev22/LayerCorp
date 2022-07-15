@@ -442,6 +442,7 @@ form{
     font-family: 'Barlow';
     letter-spacing: 2px;
     font-weight: 700;
+    cursor: pointer;
     background: #00243e;
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
             border: none;

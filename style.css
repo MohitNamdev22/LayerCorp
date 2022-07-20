@@ -131,7 +131,20 @@ header.sticky ul li a:hover{
         gap: 0;
         flex-direction: column;
         background-color: #0000;
-        
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+
+
+    }
+
+    .nav-items{
+        margin: 16px 0;
+
+    }
+
+    .nav-menu.active{
+        left: 0;
     }
 }
 

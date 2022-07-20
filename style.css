@@ -109,6 +109,7 @@ header.sticky ul li a:hover{
 @media(max-width:768px){
     .hamburger{
         display:block;
+        
     }
  
     .hamburger.active .bar:nth-child(2){
@@ -130,7 +131,8 @@ header.sticky ul li a:hover{
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #0000;
+        color: white;
+        background-color: white;
         width: 100%;
         text-align: center;
         transition: 0.3s;

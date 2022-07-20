@@ -123,6 +123,10 @@ header.sticky ul li a:hover{
         transform: translateY(-8px) rotate(-45deg);
 
     }
+
+    .nav-menu{
+        position:fixed;
+    }
 }
 
 .ln{

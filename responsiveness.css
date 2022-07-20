@@ -2,17 +2,105 @@
 and (min-device-width : 320px)
 and (max-device-width : 480px){
     body{
-        background-color: blue;
+        
+        
         
     }
 
+    .homepg{
+        margin-bottom: -15px;
+        
+    }
+
+    
+
     header h1{
-        margin-right: -200px;
+        margin-right: -220px;
     }
 
     .about{
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-right: -1100px;
+        margin-right: -1200px;
+    }
+
+    .aboutUs{
+        margin-right: -1200px;
+    }
+
+    .contact{
+        margin-right: -1200px;
     }
 }
+
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 600px){
+
+    .homepg{
+        margin-bottom: 150px;
+        margin-right:-500px;
+    }
+
+    header h1{
+        margin-right: 200px;
+    }
+
+    .about{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: -1200px;
+    }
+
+    .about .secondrow{
+        margin-left: 475px;
+    }
+
+    .aboutUs{
+        margin-right: -1200px;
+    }
+
+    .card{
+        margin-left: 5000px;
+    }
+    .contact{
+        margin-right: -1200px;
+    }
+    
+}
+
+@media only screen
+and (min-device-width : 601px)
+and (max-device-width : 950px){
+
+    .about{
+        margin-right: -800px;
+    }
+
+    .aboutUs{
+        margin-right: -800px;
+    }
+
+    .contact{
+        margin-right: -800px;
+    }
+}
+
+
+@media only screen
+and (min-device-width : 951px)
+and (max-device-width : 1000px){
+    .about{
+        margin-right: -500px;
+    }
+
+    .aboutUs{
+        margin-right: -500px;
+    }
+
+    .contact{
+        margin-right: -500px;
+    }
+}
+
+

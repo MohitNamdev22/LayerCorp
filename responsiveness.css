@@ -37,34 +37,31 @@ and (max-device-width : 480px){
 and (min-device-width : 481px)
 and (max-device-width : 600px){
 
-    .homepg{
-        margin-bottom: 150px;
-        margin-right:-500px;
-    }
+    
 
     header h1{
-        margin-right: 200px;
+        margin-right: -200px;
     }
 
     .about{
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-right: -1200px;
+        margin-right: -1000px;
     }
 
     .about .secondrow{
-        margin-left: 475px;
+        margin-left: 350px;
     }
 
     .aboutUs{
-        margin-right: -1200px;
+        margin-right: -1000px;
     }
 
     .card{
         margin-left: 5000px;
     }
     .contact{
-        margin-right: -1200px;
+        margin-right: -1000px;
     }
     
 }
@@ -89,7 +86,23 @@ and (max-device-width : 950px){
 
 @media only screen
 and (min-device-width : 951px)
-and (max-device-width : 1000px){
+and (max-device-width : 1024px){
+    .about{
+        margin-right: -600px;
+    }
+
+    .aboutUs{
+        margin-right: -600px;
+    }
+
+    .contact{
+        margin-right: -600px;
+    }
+}
+
+@media only screen
+and (min-device-width : 1025px)
+and (max-device-width : 1200px){
     .about{
         margin-right: -500px;
     }
@@ -103,4 +116,20 @@ and (max-device-width : 1000px){
     }
 }
 
+
+@media only screen
+and (min-device-width : 1201px)
+and (max-device-width : 1400px){
+    .about{
+        margin-right: -300px;
+    }
+
+    .aboutUs{
+        margin-right: -300px;
+    }
+
+    .contact{
+        margin-right: -300px;
+    }
+}
 

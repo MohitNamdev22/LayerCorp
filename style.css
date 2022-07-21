@@ -129,9 +129,11 @@ header.sticky ul li a:hover{
         position:fixed;
         left: -100%;
         top: 70px;
+        padding: 50px 50px;
         gap: 0;
         flex-direction: column;
         color: white;
+        text-align: center;
         background-color: white;
         width: 100%;
         text-align: center;
@@ -140,7 +142,10 @@ header.sticky ul li a:hover{
 
     }
 
+
     .nav-items{
+        text-align: center;
+        
         margin: 16px 0;
 
     }

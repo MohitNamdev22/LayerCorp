@@ -9,6 +9,8 @@ body{
     background-image: url("media/background1.jpg");
     background-repeat: no-repeat;
     background-size: 1600px 800px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
     
 
 }
@@ -134,6 +136,7 @@ header.sticky ul li a:hover{
         flex-direction: column;
         color: white;
         text-align: center;
+        height: 500px;
         background-color: white;
         width: 100%;
         text-align: center;
@@ -145,8 +148,8 @@ header.sticky ul li a:hover{
 
     .nav-items{
         text-align: center;
-        
-        margin: 16px 0;
+        font-size: 50px;
+        margin: 50px 0;
 
     }
 

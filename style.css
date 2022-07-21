@@ -147,10 +147,25 @@ header.sticky ul li a:hover{
 
 
     .nav-items{
-        text-align: center;
-        font-size: 50px;
+        text-align: center !important;
+        font-size: 30px;
         margin: 50px 0;
 
+    }
+
+    #nav-items{
+        text-align: center !important;
+        width: 130px !important;
+        height: 50px !important;
+        margin-top: 50px;
+        margin-bottom: 50px !important;
+    }
+
+
+    #nav-items h2{
+        color: black !important;
+        font-size: 30px !important;
+        text-align: center !important;
     }
 
     .nav-menu.active{

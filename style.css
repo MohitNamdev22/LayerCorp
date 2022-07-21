@@ -156,7 +156,7 @@ header.sticky ul li a:hover{
     #nav-items{
         text-align: center !important;
         width: 222px !important;
-        padding: 50px 50px !important;
+        padding: 60px 50px !important;
         margin-top: 50px;
         margin-bottom: 50px !important;
     }
@@ -165,8 +165,8 @@ header.sticky ul li a:hover{
     #nav-items h2{
         font-size: 40px !important;
         text-align: center !important;
-        margin-top: -17px !important;
-        line-height: 20px !important;
+        margin-top: -35px !important;
+        line-height: 40px !important;
     }
 
     .nav-menu.active{

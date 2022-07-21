@@ -75,15 +75,15 @@ and (max-device-width : 768px){
     }
 
     .about{
-        margin-right: -900px;
+        margin-right: -800px;
     }
 
     .aboutUs{
-        margin-right: -900px;
+        margin-right: -800px;
     }
 
     .contact{
-        margin-right: -900px;
+        margin-right: -800px;
     }
 }
 

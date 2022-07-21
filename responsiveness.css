@@ -15,7 +15,7 @@ and (max-device-width : 480px){
     
 
     header h1{
-        margin-right: -220px;
+        margin-right: 320px;
     }
 
     .about{
@@ -40,7 +40,7 @@ and (max-device-width : 600px){
     
 
     header h1{
-        margin-right: -200px;
+        margin-right: 500px;
     }
 
     .about{
@@ -70,16 +70,20 @@ and (max-device-width : 600px){
 and (min-device-width : 601px)
 and (max-device-width : 950px){
 
+    header h1{
+        margin-right: 500px;
+    }
+
     .about{
-        margin-right: -800px;
+        margin-right: -900px;
     }
 
     .aboutUs{
-        margin-right: -800px;
+        margin-right: -900px;
     }
 
     .contact{
-        margin-right: -800px;
+        margin-right: -900px;
     }
 }
 

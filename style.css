@@ -189,6 +189,7 @@ header.sticky ul li a:hover{
 height: 24px;
 margin-left: 10px;
 margin-top: 12px;
+text-decoration: none;
 cursor: pointer;
 font-family: 'Barlow';
 font-style: normal;
